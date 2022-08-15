@@ -2094,6 +2094,16 @@ caniuse-lite@^1.0.0, caniuse-lite@^1.0.30001370, caniuse-lite@^1.0.30001373:
   resolved "https://registry.npmmirror.com/caniuse-lite/-/caniuse-lite-1.0.30001376.tgz#af2450833e5a06873fbb030a9556ca9461a2736d"
   integrity sha512-I27WhtOQ3X3v3it9gNs/oTpoE5KpwmqKR5oKPA8M0G7uMXh9Ty81Q904HpKUrM30ei7zfcL5jE7AXefgbOfMig==
 
+canvas-dither@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/canvas-dither/-/canvas-dither-1.0.1.tgz#a340fc72241e0dcb6194ab9d916174ef99d7ab88"
+  integrity sha512-wT1RnV2y9SauibcsfMMCagQTnXmyQq2nJXuX5tTEvo0sXm1vVbJ2r8QxSC3fRQMY3ZgZVq1j54cOvmO4u+Lu/A==
+
+canvas-flatten@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/canvas-flatten/-/canvas-flatten-1.0.1.tgz#2e5b84a675b44f36647efd783bba537b3a409cf1"
+  integrity sha512-UhHeKeWGS23Bm5teZiHk6NEOme1OKCpv6arFovV89dydt0Xz+U4HkPXAKBZS/hmpR15x5U9tDj1ieMQMTwvCAA==
+
 case-sensitive-paths-webpack-plugin@^2.3.0:
   version "2.4.0"
   resolved "https://registry.npmmirror.com/case-sensitive-paths-webpack-plugin/-/case-sensitive-paths-webpack-plugin-2.4.0.tgz#db64066c6422eed2e08cc14b986ca43796dbc6d4"
@@ -2218,6 +2228,11 @@ clone@^1.0.2:
   version "1.0.4"
   resolved "https://registry.npmmirror.com/clone/-/clone-1.0.4.tgz#da309cc263df15994c688ca902179ca3c7cd7c7e"
   integrity sha512-JQHZ2QMW6l3aH/j6xCqQThY/9OH4D/9ls34cgkUBiEeocRTU04tHfKPBsUK1PqZCUQM7GiA0IIXJSuXHI64Kbg==
+
+codepage-encoder@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/codepage-encoder/-/codepage-encoder-1.0.0.tgz#8c3762bea8d1a0b7c37c6e5bc7d2741bc023f9f5"
+  integrity sha512-4RSgryt7LY2HJyXpew1t7cwP3xkkFerDWKX0v/iQuVnea6RDJS5WxmUedLKnMZlrxt368BXYjPy0EVloyCgviw==
 
 color-convert@^1.9.0:
   version "1.9.3"
@@ -3832,6 +3847,11 @@ lines-and-columns@^1.1.6:
   version "1.2.4"
   resolved "https://registry.npmmirror.com/lines-and-columns/-/lines-and-columns-1.2.4.tgz#eca284f75d2965079309dc0ad9255abb2ebc1632"
   integrity sha512-7ylylesZQ/PV29jhEDl3Ufjo6ZX7gCqJr5F7PKrqc93v7fzSymt1BpwEU8nAUXs8qzzvqhbjhK5QZg6Mt/HkBg==
+
+linewrap@^0.2.1:
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/linewrap/-/linewrap-0.2.1.tgz#5caef1579383b9b5fcb682b2d498dc9d74c545cf"
+  integrity sha512-RwPPaQ6CnZ85U2HLYcyEjD1pvF0+cesbSlIYKXWkrFAYSapDIYrMX0AoZkg4poxPZCVkVFXDatDUcnU7/2al/w==
 
 loader-runner@^4.1.0, loader-runner@^4.2.0:
   version "4.3.0"
