@@ -7,7 +7,7 @@
 </template>
 
 <script>
-import EscPosEncoder from './esc-pos-encoder'
+import EscPosEncoder from '../lib/esc-pos-encoder'
 const Dither = require('canvas-dither');
 const Flatten = require('canvas-flatten');
 const encoder = new EscPosEncoder()
@@ -18,9 +18,9 @@ export default {
     initHandler() {
       const img = document.querySelector('#img')
       const { width ,height } = img.getBoundingClientRect()
+      console.log(width ,height)
       const scrw = 200
       let scrh = Math.ceil(height * scrw / width)
-      console.log(scrh, 7878, (scrh % 8))
       scrh = scrh + 8 - (scrh % 8)
       console.log(scrw ,scrh, 222)
       // this.createCanvas(img, width, height)

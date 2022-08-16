@@ -1,24 +1,25 @@
 {
   "name": "web-esc-pos-encoder",
-  "version": "0.3.0",
+  "version": "0.5.0",
   "private": false,
   "publishConfig": {
     "access": "public"
   },
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build --target lib --name index ./src/esc-pos-encoder.js",
+    "build": "vue-cli-service build --target lib --name index ./lib/esc-pos-encoder.js",
+    "prepublishOnly": "npm run build",
     "publish": "npm publish",
     "lint": "vue-cli-service lint"
   },
   "files": [
     "dist",
-    "src"
+    "lib"
   ],
   "dependencies": {
     "canvas-dither": "^1.0.1",
     "canvas-flatten": "^1.0.1",
-    "codepage-encoder": "^1.0.0",
+    "codepage-encoder": "1.0.0",
     "core-js": "^3.8.3",
     "linewrap": "^0.2.1"
   },
